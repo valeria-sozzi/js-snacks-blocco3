@@ -5,7 +5,7 @@ A partire da un array di stringhe, crea un secondo array formattando le stringhe
 const array = ['ciao', 'COME', 'stai', 'CUFFIE']
 
 const newArray = array.map((element) => {
-    return element.charAt(0).toUpperCase() + element.substr(1).toLowerCase()
+    return element.charAt(0).toUpperCase() + element.substring(1).toLowerCase()
 })
 
 console.log(newArray);
